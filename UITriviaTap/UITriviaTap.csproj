@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DLTriviaTap\DLTriviaTap.csproj" />
+    <ProjectReference Include="..\MODELSTriviaTap\MODELSTriviaTap.csproj" />
+    <ProjectReference Include="..\TriviaTapAPI\TriviaTapAPI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BLTriviaTap">
+      <HintPath>..\BLTriviaTap\obj\Debug\net8.0\BLTriviaTap.dll</HintPath>
+    </Reference>
+    <Reference Include="BLTriviaTapFinal">
+      <HintPath>..\BLTriviaTapFinal\obj\Debug\net8.0\BLTriviaTapFinal.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BLTriviaTap">
+      <HintPath>..\BLTriviaTap\obj\Debug\net8.0\BLTriviaTap.dll</HintPath>
+    </Reference>
+    <Reference Include="BLTriviaTapFinal">
+      <HintPath>..\BLTriviaTapFinal\obj\Debug\net8.0\BLTriviaTapFinal.dll</HintPath>
+    </Reference>
+    <Reference Include="DLTriviaTap">
+      <HintPath>..\DLTriviaTap\obj\Debug\net8.0\DLTriviaTap.dll</HintPath>
+    </Reference>
+    <Reference Include="MODELSTriviaTap">
+      <HintPath>..\MODELSTriviaTap\obj\Debug\net8.0\MODELSTriviaTap.dll</HintPath>
+    </Reference>
+    <Reference Include="UITriviaTap">
+      <HintPath>..\UITriviaTap\obj\Debug\net8.0\UITriviaTap.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
